@@ -52,7 +52,7 @@
                 <div class="col-lg-6">
                     <h2>Full Stack Web Developer</h2>
                     <p>Hi, I'm Shaik Shahed. A passionate Full Stack Web Developer with expertise in building web
-                        applications using modern technologies like React,Express,MongoDB,JavaScript and more.</p>
+                        applications using modern technologies like React, Express, MongoDB, JavaScript and more.</p>
                     <p><a style="text-decoration: none;color: black; border: 1px solid green;padding: 2px;" href="mailto:shaikshahed1974@gmail.com">Email ID: shaikshahed1974@gmail.com</a></p>
                     <p><a href="tel:6300841132" style="text-decoration: none;color: black; border: 1px solid green;padding: 2px;">Phone: +91 6300841132</a></p>
                     <p>
@@ -115,7 +115,6 @@
         </div>
     </section>
 
-
     <!-- Projects Section -->
     <section id="projects" class="py-5 bg-light">
         <div class="container">
@@ -163,6 +162,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-4 project vanilla-js">
                     <div class="card mb-4">
                         <img src="./jsp1.png" class="card-img-top" alt="Project 1">
@@ -227,43 +227,47 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-
     <!-- Contact Section -->
     <section id="contact" class="py-5">
         <div class="container">
-            <h2 class="text-center">Contact</h2>
-            <form>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form action="https://formspree.io/f/xzbqzydg" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send</button>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="py-4 bg-dark text-white-50">
-        <div class="container text-center">
-            <small>&copy; 2024 Your Name. All Rights Reserved.</small>
+    <footer class="text-center py-4">
+        <div class="container">
+            <p>&copy; 2023 Shaik Shahed. All Rights Reserved.</p>
         </div>
     </footer>
-    <script src="scripts.js"></script>
 
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim"></script>
 
 </html>
