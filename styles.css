@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+}
+
+.jumbotron p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 5rem 0;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+section p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #343a40;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 1rem 0;
+}
+
+footer small {
+    font-size: 0.8rem;
+}
+
+.project {
+    display: block; /* Default display for projects */
+}
+
+.project.hidden {
+    display: none;
+}
+
+.filter-btn.active {
+    background-color: #007bff;
+    color: #fff;
+}
